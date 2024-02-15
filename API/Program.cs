@@ -1,4 +1,6 @@
 using API.Extensions;
+using Application.Activities;
+using Application.Core;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 

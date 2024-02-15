@@ -1,10 +1,7 @@
 using Application.Activities;
 using Application.Core;
 using Domain;
-using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Persistence;
 // using Activity = System.Diagnostics.Activity;
 
 namespace API.Controllers

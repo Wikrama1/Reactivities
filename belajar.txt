@@ -1,0 +1,36 @@
+JANGAN TYPO
+obrolan obrolan seputar dotnet to react
+gathering requirment
+
+
+EXTENSIONS DOTNET TO REACT 
+MediatR
+AutoMapper
+axios
+
+
+CLEAN ARCHITECTURE
+Entities
+Lapisan Entities biasanya terdiri dari serangkaian struktur dan fungsi yang berhubungan dengan pengelolaan data,
+misalnya contoh operasi create, read, update, dan delete. Umumnya, lapisan ini juga disebut sebagai repository.
+Lapisan ini memiliki kemungkinan terkecil untuk mengalami perubahan eksternal dalam perangkat lunak dan tidak 
+memiliki ketergantungan pada lapisan lain.
+
+singkat nya CRUD. karena crud tidak terlalu banyak mengalami perubahan
+
+use cases 
+Lapisan Use Cases umumnya terdiri dari sekelompok fungsi yang merangkai logika bisnis pada perangkat lunak. 
+Lapisan ini sering juga disebut sebagai service atau use case. Di dalam lapisan ini, alur data diimplementasikan 
+dari dan menuju entities untuk mencapai tujuan dalam setiap aspek logika bisnis pada perangkat lunak. Lapisan ini
+ mengimplementasikan fungsi-fungsi yang disediakan oleh lapisan Entities.
+
+
+Interface Adapters
+Lapisan Interface Adapters biasanya terdiri dari kumpulan fungsi yang bertugas mengkonversi data dari format
+ eksternal, seperti permintaan (request), ke dalam bentuk data yang dapat dikelola melalui lapisan Use Cases. 
+Lapisan ini sering juga disebut sebagai controller atau handler. Lapisan ini bertugas mengimplementasikan 
+fungsi-fungsi yang telah didefinisikan dalam lapisan Use Cases.
+
+the dependency rule
+lingkaran terdalam tidak bisa melihat terluar
+command command saling bergantung

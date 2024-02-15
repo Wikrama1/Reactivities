@@ -1,7 +1,5 @@
-using System.Runtime.Versioning;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using Persistence;
 using Activity = Domain.Activity;
 
